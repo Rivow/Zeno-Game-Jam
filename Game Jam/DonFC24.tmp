@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bnkhekcv3wqck"]
+
+[ext_resource type="Texture2D" uid="uid://btqbddb7k55qu" path="res://Images/Triangulo.png" id="1_rv0eb"]
+[ext_resource type="Script" path="res://MainSprite.gd" id="2_ixyte"]
+[ext_resource type="Texture2D" uid="uid://badmtewf7b478" path="res://Images/Verdura Roja.png" id="3_8woej"]
+[ext_resource type="Script" path="res://VerduraRoja.gd" id="4_vpwar"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Triangulo" type="Sprite2D" parent="."]
+position = Vector2(478, 627)
+scale = Vector2(0.227273, 0.136364)
+texture = ExtResource("1_rv0eb")
+script = ExtResource("2_ixyte")
+
+[node name="VerduraRoja" type="Sprite2D" parent="."]
+position = Vector2(458, 33)
+scale = Vector2(0.445122, 0.41092)
+texture = ExtResource("3_8woej")
+script = ExtResource("4_vpwar")
